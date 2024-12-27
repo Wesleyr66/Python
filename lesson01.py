@@ -9,9 +9,11 @@
 # print(name)
 # print(name[1].upper())
 
-#Lesson 1
+#Lesson 1 / First Commands
+
+print('Hello user welcome to the program')
 
 Day = input('Enter the Day: ')
 Month = input('Enter the Month: ')
 Year = input('Enter the Year: ')
-print('The date is: ', Month,'/', Day,'/', Year)
+print('The date is: {}/{}/{}'.format(Day, Month, Year))
